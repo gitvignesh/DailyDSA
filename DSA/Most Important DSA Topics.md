@@ -5,4 +5,4 @@
 5. Linked List
 6. Trees
 7. Heap/Priority Queue
-8. Graphs
+8. Graphs [DFS & BFS]
