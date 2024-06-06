@@ -1,5 +1,8 @@
+
+
+Kadane's algorithm is a greedy/dynamic programming algorithm that can be used on array problems to bring the time complexity down to 𝑂(𝑛). It is used to calculate the maximum sum subarray ending at a particular position.
+
 Find the non-empty **Sub-Array** with the largest sum.
-This is a greedy solution:
 Variation-1: (return the sum)
 Submission: https://leetcode.com/problems/maximum-subarray/submissions/1273789451
 
@@ -20,6 +23,6 @@ fun maxSubArray(nums: IntArray): Int {
 
 Variation-2: (return the indices)
 
-This is divide and conquer solution: 
+This is a divide and conquer solution: 
 
 
