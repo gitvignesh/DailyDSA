@@ -1,5 +1,4 @@
-Submission: https://leetcode.com/problems/valid-anagram/submissions/1272873636
-
+Solution: https://leetcode.com/problems/valid-anagram/submissions/1272873636
 
 
 ```kotlin

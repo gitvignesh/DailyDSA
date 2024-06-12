@@ -1,4 +1,4 @@
-Submission Link: https://leetcode.com/problems/contains-duplicate/submissions/1272856195
+Solution Link: https://leetcode.com/problems/contains-duplicate/submissions/1272856195
 
 ```kotlin
 fun containsDuplicate(nums: IntArray): Boolean {

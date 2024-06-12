@@ -1,4 +1,4 @@
-Submission link : https://leetcode.com/problems/two-sum/submissions/1263593862
+Solution link : https://leetcode.com/problems/two-sum/submissions/1263593862
 
 ```kotlin
 fun twoSum(nums: IntArray, target: Int): IntArray {

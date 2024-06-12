@@ -1,5 +1,3 @@
-
-
 Kadane's algorithm is a greedy/dynamic programming algorithm that can be used on array problems to bring the time complexity down to 𝑂(𝑛). It is used to calculate the maximum sum subarray ending at a particular position.
 
 Find the non-empty **Sub-Array** with the largest sum.

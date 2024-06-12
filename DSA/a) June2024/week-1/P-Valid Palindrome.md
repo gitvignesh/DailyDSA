@@ -1,4 +1,4 @@
-Submission Link: https://leetcode.com/problems/valid-palindrome/submissions/1279027134
+Solution Link: https://leetcode.com/problems/valid-palindrome/submissions/1279027134
 
 ```kotlin
 fun isPalindrome(s: String): Boolean {
