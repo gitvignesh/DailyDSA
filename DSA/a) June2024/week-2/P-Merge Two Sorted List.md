@@ -1,4 +1,5 @@
-Solution:
+Solution: https://leetcode.com/problems/merge-two-sorted-lists/submissions/1287635207
+
 ```kotlin
 fun mergeTwoLists(list1: ListNode?, list2: ListNode?): ListNode? {
 	val result: ListNode = ListNode(0)
