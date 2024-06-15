@@ -20,3 +20,5 @@ fun maxProfit(prices: IntArray): Int {
 	return maxProfit
 }
 ```
+
+Topic: [[Two Pointers]]

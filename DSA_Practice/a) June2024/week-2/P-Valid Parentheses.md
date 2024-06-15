@@ -23,3 +23,6 @@ fun isValid(s: String): Boolean {
 	return opened.isEmpty()
 }
 ```
+
+
+Topic: [[Arrays and Hashing]]

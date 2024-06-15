@@ -31,6 +31,7 @@ fun isOther(ch:Char): Boolean {
 }
 ```
 
+Topic: [[Two Pointers]]
 supplementary topics:
 case conversion: lowercase(), lowercaseChar()
 letter check: isLetterOrDigit()

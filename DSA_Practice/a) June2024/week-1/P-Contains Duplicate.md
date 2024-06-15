@@ -15,6 +15,6 @@ fun containsDuplicate(nums: IntArray): Boolean {
 }
 ```
 
-
+Topic: [[Arrays and Hashing]]
 Supplementary topics covered:
 1. HashSet Creation methods

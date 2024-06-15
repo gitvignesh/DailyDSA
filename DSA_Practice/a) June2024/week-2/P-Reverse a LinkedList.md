@@ -24,3 +24,6 @@ fun reverseList(head: ListNode?): ListNode? {
 }
 ```
 Note: Basic idea is keeping not of the connection that needs to removed before making the actual change
+
+
+Topic: [[Linked List]]

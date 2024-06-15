@@ -24,7 +24,7 @@ Solution: https://leetcode.com/problems/valid-anagram/submissions/1272873636
     }
 ```
 
-
+Topic: [[Arrays and Hashing]]
 Supplementary topics covered:
 1. HashMap Creation methods
 2. Looping techniques

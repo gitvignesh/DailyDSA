@@ -28,6 +28,8 @@ fun mergeTwoLists(list1: ListNode?, list2: ListNode?): ListNode? {
 }
 ```
 
+
+Topic: [[Linked List]]
 Supplementary  topics covered:
 Difference between "and" - "&&" in Kotlin
 "and": its not shorting (both side are evaluated) used for bitwise operations

@@ -18,7 +18,7 @@ fun twoSum(nums: IntArray, target: Int): IntArray {
 }
 ```
 
-
+Topic: [[Arrays and Hashing]]
 Supplementary topics covered:
 1. HashMap Creation methods
 2. Looping techniques
