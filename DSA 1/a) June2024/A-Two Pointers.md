@@ -1,1 +1,0 @@
-We will start the `L` pointer at 00 and `R` pointer at `arr.length - 1` and increment either the `L`, or decrement `R` or both depending on the conditions given in the problem. This repeats until the pointers meet each other.
