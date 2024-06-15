@@ -11,14 +11,10 @@ fun isValid(s: String): Boolean {
 
 	for (bracket in s) {
 		if(outMap.contains(bracket)){
-			if (opened.isEmpty()) {
+			if (opened.isEmpty() || outMap[bracket] != opened.last()){
 				return false
 			} else {
-				if (outMap[bracket] != opened.last()){
-					return false
-				} else {
-					opened.removeLast()
-				}
+				opened.removeLast()
 			}  
 		} else {
 			opened.add(bracket)
