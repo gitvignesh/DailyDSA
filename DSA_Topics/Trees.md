@@ -23,4 +23,12 @@ The question here is why bother with BSTs if we have sorted arrays? With binary 
 
 So, while BSTs don't offer benefit over sorted arrays for the search functionality, they are better for insertion and deletion. In this chapter, we will focus specifically on the search operation.
 
-Balanced BST: Balanced binary tree means that the height of the left-subtree is equal to the height of the right-subtree, or there is a difference of 1. Then we can run search in **𝑂(𝑙𝑜𝑔 𝑛)** 
+Balanced BST: Balanced binary tree means that the height of the left-subtree is equal to the height of the right-subtree, or there is a difference of 1. Then we can run search in **𝑂(𝑙𝑜𝑔 𝑛)**  else it is O(height)
+
+## BST Insert & Remove
+## DFS
+
+## BFS
+
+
+
