@@ -64,4 +64,6 @@ fun maxDepth(root: TreeNode?): Int {
 ```
 
 Topic: [[Trees]]
-
+Supplementary Topics: 
+1. Creating a array list and using it as Queue and Stack
+2. Difference between push() & add() and pop() & remove()
