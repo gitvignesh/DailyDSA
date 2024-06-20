@@ -27,6 +27,30 @@ Balanced BST: Balanced binary tree means that the height of the left-subtree is 
 
 ## BST Insert & Remove
 ## DFS
+Depth First Search (DFS) is a way of traversing binary search trees that prioritizes depth rather than breadth.
+
+The idea is to keep traversing down either the left subtree or the right subtree until there are no more nodes left. There are various methods under which depth-first search is performed. These methods visit the nodes - `root, left_child, right_child` in different orders. These three methods are:
+- Inorder
+- Preorder
+- Postorder
+
+Depth first search is best implemented using recursion. Again, you could use a stack and do it iteratively but it is a lot more complicated.
+
+```kotlin
+//InOrder Traversal (returns sorted array)
+
+fun traverseInOrder(root: TreeNode?) {
+	if(root ==  null) {
+		return
+	}
+
+	traverseInOrder(root.left)
+	print("$root.`val' -> ")
+	traverseInOrder(root.right)
+}
+
+```
+
 
 ## BFS
 
