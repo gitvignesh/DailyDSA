@@ -20,4 +20,4 @@ fun inorderTraversal(root: TreeNode?): List<Int> {
 
 Topic [[Trees]]
 Supplementary Topics:
-1. [[List]]
+1. [[Collections]]
