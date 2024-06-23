@@ -1,20 +1,19 @@
-Solution: https://leetcode.com/problems/diameter-of-binary-tree/submissions/1296929395
+Solution: https://leetcode.com/problems/diameter-of-binary-tree/submissions/1297855401
 
 ```kotlin
 fun diameterOfBinaryTree(root: TreeNode?): Int {
-	var maxDia = 0
-	fun dfs(node: TreeNode?): Int {
-		if(node == null) {
-			return -1
+	var diameter = 0
+	fun findHeight(root: TreeNode?): Int {
+		if(root == null){
+			return 0
 		}
-		val left = dfs(node.left)
-		val right = dfs(node.right)
-		maxDia = max(maxDia, 2+left+right)
-		return 1 + max(left, right)
+		val leftH = findHeight(root.left)
+		val rightH = findHeight(root.right)
+		diameter = maxOf(diameter, leftH + rightH) 
+	   return 1 + max(leftH, rightH)
 	}
-
-	dfs(root)
-	return maxDia
+	findHeight(root)
+	return diameter
 }
 ```
 
