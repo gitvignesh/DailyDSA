@@ -17,4 +17,4 @@ fun hasCycle(head: ListNode?): Boolean {
 }
 ```
 
-Topic: [[Linked List]]
+Topic: [[Linked List]], [[Fast and Slow Pointers]]
