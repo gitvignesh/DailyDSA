@@ -16,3 +16,5 @@ fun hasCycle(head: ListNode?): Boolean {
 	return false
 }
 ```
+
+Topic: [[Linked List]]
