@@ -1,0 +1,7 @@
+# MVP
+
+# MVVM
+
+# MVI
+
+
