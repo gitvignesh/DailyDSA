@@ -6,9 +6,10 @@ Coroutines is a framework that work on threads under the hood. There are 2 impor
 
 ### Dispatcher
 Define set of threads (Thread Pool) that can be used for the coroutine
-1. Dispatchers. IO
-2. Dispatchers. Main
-3. Dispatchers. Default
+1. Dispatchers. Main : Confined
+2. Dispatchers. Unconfined
+3. Dispatchers. IO
+4. Dispatchers. Default
 ### Methods to start a coroutine
 1. launch 
 2. async
