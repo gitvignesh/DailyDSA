@@ -15,12 +15,12 @@ Define set of threads (Thread Pool) that can be used for the coroutine
 2. Dispatchers. Unconfined
 3. Dispatchers. IO
 4. Dispatchers. Default
-### Methods to start a coroutine
-1. launch 
-2. async
+### Coroutine Builders
+1. launch : returns a job object
+2. async: returns a deferred object
 3. runBlocking
 4. withTimeout(timeMillis)
-5. withContext(Dispactcher)
+5. withContext(Dispatcher_context): Runs in blocking manner 
 ### Other Methods
 1. cancel: End the coroutine 
 2. join: Wait for the completion
