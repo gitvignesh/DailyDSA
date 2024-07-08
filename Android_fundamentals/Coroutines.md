@@ -7,6 +7,8 @@ Coroutines is a framework that work on threads under the hood. There are 2 impor
 1. GlobalScope
 2. lifecycleScope
 3. vewModelScope
+4. CoroutineScope
+5. supervisorScope
 ### Dispatcher
 Define set of threads (Thread Pool) that can be used for the coroutine
 1. Dispatchers. Main : Confined
