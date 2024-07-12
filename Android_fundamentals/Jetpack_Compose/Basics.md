@@ -25,7 +25,7 @@ XML was a imperative framework whereas Jetpack Compose is a declarative framewor
 
 ### Basic Composables:
 
-**Text**
+***Text***
 Used to show text on screen
 ```kotlin
 Text(
@@ -35,13 +35,10 @@ fontWeight = FontWeight.Bold | .... ,
 color = Color.Red | ...... ,
 fontSize = 36.sp 
 textAlign = TextAlign.Centre | ..... ,
-.
-.
-.
 )
 ```
 
-**Image**
+***Image***
 used to show image on screen 
 ```kotlin
 Image(
@@ -52,16 +49,63 @@ contentScale = ContentScale.Crop | ..... ,
 )
 ```
 
-**Button**
-used to show button
+***Button***
+used to show button using other Composables function
 ```kotlin
 Button(
-onClick = {
+onClick = { /*lambda function to handle click*/ }, {REQUIRED}
+colors = ButtonDefaults.buttonColors(),
+enabled = true | false,
+) {
+Composable() //Accepts a composable in rowscope
+}
+```
 
-}, {REQUIRED}
+***Text Field***
+used to get text input from the user
+```kotlin
+TextField(
+value = " ",{REQUIRED}
+onValueChange = { },{REQUIRED}
+lable = { Composable() },
+placeHolder = { Composable() }
 )
 ```
 ### Basic Layouts:
+
+***Box***
+```kotlin
+Box(
+contentAligment = Alignment.BottomEnd
+) {
+Composables()
+}
+```
+
+***Column***
+
+```kotlin
+Column(
+verticalArrangement = Arrangement.SpaceEvenly,
+horizontalAligment = Alignment.CentreHorizonatally,
+
+) {
+Composables()
+}
+```
+
+
+***Row***
+
+```kotlin
+Row(
+horizontalArrangement = Arrangement.SpaceEvenly,
+verticalAligment = Alignment.CentreVertically,
+
+) {
+Composables()
+}
+```
 
 ### Basic Decorators:
 
