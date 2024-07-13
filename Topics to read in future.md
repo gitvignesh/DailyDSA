@@ -5,3 +5,4 @@
    https://youtu.be/t6Sql3WMAnk?si=sxr46hylUKTcd6f8
 3. Reactive Programming 
 4. Composition vs Inheritance 
+5. How Lazy Composables works behind the scene 

@@ -10,9 +10,11 @@ fun HelloCompose(name: String) {
 XML was a imperative framework whereas Jetpack Compose is a declarative framework, it based on the ideology of compose over inheritance.
 
 ### Points to Note
-1. Recomposition: Whenever the state of the app changes the UI is recreated.
-2. The main compose activity is inherited from component activity as it has various features that would help us handle the lifecycle components as it is lifecycle aware. while using XML we used to inherit from AppCompact activity to have backward compatibility with material design components, Action bar support, Fragment management etc.
-3. To use compose along with the XML based project we use ComposeView in the layout that requires the view.
+1. Recomposition: Whenever the state of the app changes the UI is recreated. Only the affected compose component and its dependents is recomposed. 
+2. Composable functions can run in any order or in parallel.
+3. Recomposition is optimistic and may be canceled, composable functions can run quite frequently (Ex: During animations)
+4. The main compose activity is inherited from component activity as it has various features that would help us handle the lifecycle components as it is lifecycle aware. while using XML we used to inherit from AppCompact activity to have backward compatibility with material design components, Action bar support, Fragment management etc.
+5. To use compose along with the XML based project we use ComposeView in the layout that requires the view.
  ```xml
  <Parent>
  <ComposeView
@@ -71,6 +73,14 @@ lable = { Composable() },
 placeHolder = { Composable() }
 )
 ```
+
+***card***
+```kotlin
+Card(
+elevation = x.dp,
+
+)
+```
 ### Basic Layouts:
 
 ***Box***
@@ -107,5 +117,17 @@ Composables()
 }
 ```
 
-### Basic Decorators:
+### Basic Decorators (Modifiers):
 
+Used to modify the looks of a Composables. Each composable can have a modifier and can be chained and the sequence matters
+
+background()
+size()
+border()
+clip()
+clickable { }
+fillMaxSize()
+fillMaxWidth()
+fillMaxHeight()
+
+It is recommended that we have a default parameter : modifier for every custom composable that we define.
