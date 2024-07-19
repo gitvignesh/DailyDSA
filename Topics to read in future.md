@@ -6,3 +6,4 @@
 3. Reactive Programming 
 4. Composition vs Inheritance 
 5. How Lazy Composables works behind the scene
+6. git commands
