@@ -7,3 +7,5 @@
 4. Composition vs Inheritance 
 5. How Lazy Composables works behind the scene
 6. git commands
+7. Compose compiler Gradle plugin:
+   https://developer.android.com/develop/ui/compose/compiler)
