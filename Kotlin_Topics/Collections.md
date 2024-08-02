@@ -7,6 +7,7 @@
 3.Vector
 4.Stack
 5.CopyOnWriteArrayList
+6.ArrayDeque
 
 **Mutable Set Types**
 1.HashSet
