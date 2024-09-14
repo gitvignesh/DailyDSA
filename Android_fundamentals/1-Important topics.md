@@ -1,12 +1,12 @@
-1. [[DailyDevBytes/Android_fundamentals/Basics]]
-2. [[Architectural Patterns]]
-3. [[Functions]]
-4. [[Async Programming]]
-5. [[Rest API]]
-6. [[Jetpack Components]]
-7. [[Jetpack Compose]]
-8. [[Firebase]]
-9. 
+1. [[Basics]]
+3. [[Architectural Patterns]]
+4. [[Functions]]
+5. [[Async Programming]]
+6. [[Rest API]]
+7. [[Jetpack Components]]
+8. [[Jetpack Compose]]
+9. [[Firebase]]
+10. 
 
 
 
