@@ -9,3 +9,5 @@
 6. git commands
 7. Compose compiler Gradle plugin:
    https://developer.android.com/develop/ui/compose/compiler)
+8. Java Optional: [Java Optionals and Kotlin Nulls - Dave Leeds on Kotlin](https://typealias.com/guides/java-optionals-and-kotlin-nulls/)
+9. 
