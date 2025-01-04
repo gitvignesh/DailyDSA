@@ -1,13 +1,27 @@
-#### **1. What is the difference between a nested class and an inner class in Kotlin?** 
+#### 1. What is the difference between a nested class and an inner class in Kotlin?
 - A **nested class** is **static** (doesn't hold a reference to the outer class).
 - An **inner class** is **non-static** and has an implicit reference to the outer class. Use the `inner` keyword for inner classes in Kotlin.
-
-#### **2. How does Kotlin handle references?**
-
+#### 2. How does Kotlin handle references?
 Kotlin (and Java) abstracts pointers using **references**.
 - A **reference** is a variable that stores the location of an object in memory, but it doesn’t allow direct manipulation of memory addresses.
 - When you assign an object to a variable, the variable holds a reference to that object, not the object itself.
-
-#### **3. In Kotlin (running on the JVM), memory is divided into two main areas:**
+#### 3. In Kotlin (running on the JVM), memory is divided into two main areas:
 - **Heap Memory**: Stores objects.
 - **Stack Memory**: Stores references to objects.
+#### 4. What are higher order functions in kotlin
+A **higher-order function** is a function that either:
+1. Takes another function as a parameter, or
+2. Returns a function as its result.
+
+Benefits of Higher-Order Functions
+1. **Code Reusability**: Avoid repetitive logic.
+2. **Expressiveness**: Makes code easier to read and understand.
+3. **Functional Programming**: Encourages immutability and declarative code.
+
+#### 5. What is the difference between: What is the difference between inline, noinline, and crossinline in Kotlin:
+
+|Keyword|Behavior|
+|---|---|
+|`inline`|Inlines the function and lambdas to reduce overhead; allows non-local returns unless `crossinline`.|
+|`noinline`|Prevents specific lambdas from being inlined within an `inline` function.|
+|`crossinline`|Prevents non-local returns from lambdas in `inline` functions to maintain predictable control flow.|
