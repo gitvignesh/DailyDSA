@@ -25,3 +25,16 @@ Benefits of Higher-Order Functions
 |`inline`|Inlines the function and lambdas to reduce overhead; allows non-local returns unless `crossinline`.|
 |`noinline`|Prevents specific lambdas from being inlined within an `inline` function.|
 |`crossinline`|Prevents non-local returns from lambdas in `inline` functions to maintain predictable control flow.|
+#### 6. What are the key features of Kotlin?
+Conciseness: Reduced boilerplate code.
+Null Safety: Eliminates `NullPointerExceptions` with nullable and non-nullable types.
+Interoperability: Fully interoperable with Java.
+Extension Functions: Add functionality to existing classes.
+Coroutines: Simplify asynchronous programming.
+Type Inference: Reduces explicit type declaration.
+#### 7. What is the difference between `apply`, `let`, `run`, `also`, and `with`?
+- `apply`: Used for configuring an object and returns the object itself.
+- `let`: Executes a block with `it` as the receiver, returns the block's result.
+- `run`: Executes a block and returns the result; uses `this` as the receiver.
+- `also`: Like `apply`, but `it` is the receiver and returns the object.
+- `with`: Used for calling methods on an object without returning it.
