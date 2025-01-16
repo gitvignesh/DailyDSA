@@ -38,3 +38,14 @@ Type Inference: Reduces explicit type declaration.
 - `run`: Executes a block and returns the result; uses `this` as the receiver.
 - `also`: Like `apply`, but `it` is the receiver and returns the object.
 - `with`: Used for calling methods on an object without returning it.
+
+#### 8. What is the difference between fun and inline fun ?
+- `fun`: Normal function.
+- `inline fun`: Requests the compiler to copy the function's body to the call site, reducing overhead of higher-order functions.
+
+#### 9. What is the `lazy` keyword in Kotlin? ####
+`lazy` is used to initialize properties only when accessed for the first time.
+
+#### 10. What is the purpose of the `@JvmStatic` and `@JvmOverloads` annotations?
+- `@JvmStatic`: Makes a method callable as a static method in Java.
+- `@JvmOverloads`: Generates multiple overloads for functions with default parameters.
