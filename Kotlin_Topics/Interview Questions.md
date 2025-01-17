@@ -49,3 +49,10 @@ Type Inference: Reduces explicit type declaration.
 #### 10. What is the purpose of the `@JvmStatic` and `@JvmOverloads` annotations?
 - `@JvmStatic`: Makes a method callable as a static method in Java.
 - `@JvmOverloads`: Generates multiple overloads for functions with default parameters.
+
+#### 11. What is the difference between `Array` and `List` in Kotlin?
+- `Array`: Fixed-size, mutable collection of elements.
+- `List`: Immutable by default, supports both mutable (`MutableList`) and immutable (`List`) versions.
+#### 12. What is the difference between `HashMap` and `MutableMap` in Kotlin?
+- `HashMap`: Implementation of `MutableMap` backed by a hash table.
+- `MutableMap`: Generic interface for mutable maps.
