@@ -56,3 +56,21 @@ Type Inference: Reduces explicit type declaration.
 #### 12. What is the difference between `HashMap` and `MutableMap` in Kotlin?
 - `HashMap`: Implementation of `MutableMap` backed by a hash table.
 - `MutableMap`: Generic interface for mutable maps.
+
+#### 13. What is the difference between `filter`, `map`, and `flatMap` in Kotlin?
+- `filter`: Filters elements based on a predicate.
+- `map`: Transforms elements.
+- `flatMap`: Transforms and flattens nested collections.
+
+#### 14. What are coroutines builders in Kotlin?
+- Builders like `launch` and `async` create coroutines.
+- `launch`: Does not return a value.
+- `async`: Returns a `Deferred` that provides a result.
+
+#### 15. What are `in` and `out` keywords in Kotlin generics?
+- `in`: Defines a contravariant type (input type).
+- `out`: Defines a covariant type (output type).
+
+#### 16. What are type aliases in Kotlin?
+Type aliases provide alternate names for existing types, improving readability.
+
