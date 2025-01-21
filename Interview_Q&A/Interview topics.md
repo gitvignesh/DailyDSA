@@ -22,4 +22,13 @@ System Design: They also ask you to design, examples are:
 • Design Uber App
 • Design Video Calling App
 Do not miss the obvious things like Activity Life cycle, Launch Mode, Solid Principles, etc.
-Also, you can't skip DSA, 8 out of 10 companies will ask.
+
+DSA Topics:
+1. [[Arrays and Hashing]]
+2. [[Two Pointers]]
+3. [[Sliding window]]
+5. [[Binary Search]]
+6. [[Linked List]]
+7. [[Trees]]
+8. [[Heap or Priority Queue]]
+10. [[Graphs]]
