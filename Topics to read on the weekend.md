@@ -10,4 +10,6 @@
 7. Compose compiler Gradle plugin:
    https://developer.android.com/develop/ui/compose/compiler)
 8. Java Optional: [Java Optionals and Kotlin Nulls - Dave Leeds on Kotlin](https://typealias.com/guides/java-optionals-and-kotlin-nulls/)
-9. 
+9. What happens when the app icon is clicked for the first time?
+10. What happens when the Android Device is started for the first time?
+11. How does my app interact with the Android system classes?
