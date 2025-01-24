@@ -13,3 +13,4 @@
 9. What happens when the app icon is clicked for the first time?
 10. What happens when the Android Device is started for the first time?
 11. How does my app interact with the Android system classes?
+12. Life cycle of a composable?
