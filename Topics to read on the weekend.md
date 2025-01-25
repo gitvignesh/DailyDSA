@@ -14,3 +14,5 @@
 10. What happens when the Android Device is started for the first time?
 11. How does my app interact with the Android system classes?
 12. Life cycle of a composable?
+13. How is Jetpack connect to view XML system ?
+14. What is Gradle and AGP in Android studio?
