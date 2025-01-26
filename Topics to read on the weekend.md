@@ -16,3 +16,4 @@
 12. Life cycle of a composable?
 13. How is Jetpack connect to view XML system ?
 14. What is Gradle and AGP in Android studio?
+15. How do broadcast receivers work in android at system level? 
