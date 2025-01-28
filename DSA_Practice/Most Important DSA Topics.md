@@ -1,8 +1,15 @@
 1. [[Arrays and Hashing]]
 2. [[Two Pointers]]
 3. [[Sliding window]]
-5. [[Binary Search]]
+   
+4. [[Binary Search]]
+   
+5. Recursion
+   
 6. [[Linked List]]
+   
 7. [[Trees]]
+   
 8. [[Heap or Priority Queue]]
-10. [[Graphs]]
+   
+9. [[Graphs]]
