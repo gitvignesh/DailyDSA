@@ -18,3 +18,4 @@
 14. What is Gradle and AGP in Android studio?
 15. How do broadcast receivers work in android at system level?
 16. How the work-manager work under the hood ?
+17. Espresso in detail?
